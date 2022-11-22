@@ -1,2 +1,12 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+public Class First {
+    Integer a= 88,b,c;
+    public void sum()
+    {
+Integer a = 12;
+        b = 11;
+ c = a+b;
+    
+System.debug('The Sum of the a+b is' + c);
+	
+    }
+}
