@@ -1,0 +1,176 @@
+56.0 APEX_CODE,FINEST;APEX_PROFILING,INFO;CALLOUT,INFO;DB,INFO;NBA,INFO;SYSTEM,DEBUG;VALIDATION,INFO;VISUALFORCE,INFO;WAVE,INFO;WORKFLOW,INFO
+Execute Anonymous: Accountandcontact.account();
+Execute Anonymous: Accountandcontact.contact();
+22:05:59.1 (1353206)|USER_INFO|[EXTERNAL]|0055g00000GSiOm|suryabhan.shinde@enzigma.com|(GMT-08:00) Pacific Standard Time (America/Los_Angeles)|GMT-08:00
+22:05:59.1 (1391053)|EXECUTION_STARTED
+22:05:59.1 (1396935)|CODE_UNIT_STARTED|[EXTERNAL]|execute_anonymous_apex
+22:05:59.1 (1637130)|HEAP_ALLOCATE|[79]|Bytes:3
+22:05:59.1 (1683457)|HEAP_ALLOCATE|[84]|Bytes:152
+22:05:59.1 (1710633)|HEAP_ALLOCATE|[399]|Bytes:408
+22:05:59.1 (1736695)|HEAP_ALLOCATE|[412]|Bytes:408
+22:05:59.1 (1760821)|HEAP_ALLOCATE|[520]|Bytes:48
+22:05:59.1 (1797502)|HEAP_ALLOCATE|[139]|Bytes:6
+22:05:59.1 (1827544)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:3
+22:05:59.1 (1929011)|STATEMENT_EXECUTE|[1]
+22:05:59.1 (1932084)|STATEMENT_EXECUTE|[1]
+22:05:59.1 (1983045)|HEAP_ALLOCATE|[52]|Bytes:5
+22:05:59.1 (2008581)|HEAP_ALLOCATE|[58]|Bytes:5
+22:05:59.1 (2018219)|HEAP_ALLOCATE|[66]|Bytes:7
+22:05:59.1 (2046561)|SYSTEM_MODE_ENTER|false
+22:05:59.1 (2079015)|HEAP_ALLOCATE|[1]|Bytes:5
+22:05:59.1 (10531297)|HEAP_ALLOCATE|[1]|Bytes:4
+22:05:59.1 (10557247)|HEAP_ALLOCATE|[1]|Bytes:5
+22:05:59.1 (10590008)|METHOD_ENTRY|[1]|01p5g00000hqa9n|Accountandcontact.Accountandcontact()
+22:05:59.1 (10604311)|STATEMENT_EXECUTE|[1]
+22:05:59.1 (10617311)|STATEMENT_EXECUTE|[1]
+22:05:59.1 (10626601)|METHOD_EXIT|[1]|Accountandcontact
+22:05:59.1 (10680238)|METHOD_ENTRY|[1]|01p5g00000hqa9n|Accountandcontact.account()
+22:05:59.1 (10745790)|STATEMENT_EXECUTE|[2]
+22:05:59.1 (10749560)|STATEMENT_EXECUTE|[3]
+22:05:59.1 (10802759)|HEAP_ALLOCATE|[3]|Bytes:4
+22:05:59.1 (10908458)|VARIABLE_SCOPE_BEGIN|[3]|acc|Account|true|false
+22:05:59.1 (10994241)|VARIABLE_ASSIGNMENT|[3]|acc|{}|0x11d8810e
+22:05:59.1 (11009473)|STATEMENT_EXECUTE|[4]
+22:05:59.1 (11015302)|HEAP_ALLOCATE|[4]|Bytes:18
+22:05:59.1 (11164980)|VARIABLE_ASSIGNMENT|[4]|this.Name|"Parent acc record1"|0x11d8810e
+22:05:59.1 (11177094)|STATEMENT_EXECUTE|[5]
+22:05:59.1 (11181084)|HEAP_ALLOCATE|[5]|Bytes:3
+22:05:59.1 (11230632)|VARIABLE_ASSIGNMENT|[5]|this.Rating|"Hot"|0x11d8810e
+22:05:59.1 (11237928)|STATEMENT_EXECUTE|[6]
+22:05:59.1 (11241538)|HEAP_ALLOCATE|[6]|Bytes:7
+22:05:59.1 (11277036)|VARIABLE_ASSIGNMENT|[6]|this.Industry|"Banking"|0x11d8810e
+22:05:59.1 (11283921)|STATEMENT_EXECUTE|[7]
+22:05:59.1 (11286916)|HEAP_ALLOCATE|[7]|Bytes:6
+22:05:59.1 (11321291)|VARIABLE_ASSIGNMENT|[7]|this.AccountNumber|"414111"|0x11d8810e
+22:05:59.1 (11327993)|STATEMENT_EXECUTE|[9]
+22:05:59.1 (11330235)|STATEMENT_EXECUTE|[10]
+22:05:59.1 (11332332)|STATEMENT_EXECUTE|[11]
+22:05:59.1 (11335287)|HEAP_ALLOCATE|[11]|Bytes:1
+22:05:59.1 (11376006)|VARIABLE_ASSIGNMENT|[11]|this.NumberofLocations__c|" "|0x11d8810e
+22:05:59.1 (11383560)|STATEMENT_EXECUTE|[12]
+22:05:59.1 (11465034)|HEAP_ALLOCATE|[12]|Bytes:8
+22:05:59.1 (11492616)|DML_BEGIN|[12]|Op:Insert|Type:Account|Rows:1
+22:05:59.1 (11531296)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+22:05:59.1 (35866916)|CODE_UNIT_STARTED|[EXTERNAL]|Flow:Account
+22:05:59.1 (35898301)|CODE_UNIT_FINISHED|Flow:Account
+22:05:59.1 (40429425)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+22:05:59.1 (40455726)|DUPLICATE_DETECTION_BEGIN
+22:05:59.1 (41087307)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm5g00000VMGNY|DuplicateRuleName:Standard Account Duplicate Rule|DmlType:INSERT
+22:05:59.1 (89381288)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Account|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+22:05:59.1 (89421990)|DUPLICATE_DETECTION_MATCH_INVOCATION_SUMMARY|EntityType:Account|NumRecordsToBeSaved:1|NumRecordsToBeSavedWithDuplicates:0|NumDuplicateRecordsFound:0
+22:05:59.1 (89799148)|DUPLICATE_DETECTION_END
+22:05:59.1 (89813758)|CODE_UNIT_FINISHED|DuplicateDetector
+22:05:59.1 (92385137)|DML_END|[12]
+22:05:59.1 (92602497)|VF_PAGE_MESSAGE|Required fields are missing: [NumberofLocations__c]
+22:05:59.1 (92794071)|EXCEPTION_THROWN|[12]|System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [NumberofLocations__c]: [NumberofLocations__c]
+22:05:59.1 (93352138)|HEAP_ALLOCATE|[12]|Bytes:157
+22:05:59.1 (93415661)|VARIABLE_SCOPE_BEGIN|[14]|e|System.DmlException|true|false
+22:05:59.1 (93753624)|VARIABLE_ASSIGNMENT|[14]|e|"common.apex.runtime.impl.DmlExecutionException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [NumberofLocations__c]: [NumberofLocations__c]"|0x1f9d6a0f
+22:05:59.1 (93776619)|STATEMENT_EXECUTE|[14]
+22:05:59.1 (93780335)|STATEMENT_EXECUTE|[15]
+22:05:59.1 (93788208)|HEAP_ALLOCATE|[15]|Bytes:29
+22:05:59.1 (93869829)|USER_DEBUG|[15]|DEBUG|Accont created successfully 1
+22:05:59.1 (93897795)|METHOD_EXIT|[1]|01p5g00000hqa9n|Accountandcontact.account()
+22:05:59.1 (93914626)|SYSTEM_MODE_EXIT|false
+22:05:59.1 (93929614)|STATEMENT_EXECUTE|[2]
+22:05:59.1 (93999399)|SYSTEM_MODE_ENTER|false
+22:05:59.1 (94028888)|HEAP_ALLOCATE|[2]|Bytes:5
+22:05:59.1 (94056804)|METHOD_ENTRY|[2]|01p5g00000hqa9n|Accountandcontact.contact()
+22:05:59.1 (94105670)|STATEMENT_EXECUTE|[18]
+22:05:59.1 (94109338)|STATEMENT_EXECUTE|[19]
+22:05:59.1 (94189169)|HEAP_ALLOCATE|[19]|Bytes:4
+22:05:59.1 (94334238)|VARIABLE_SCOPE_BEGIN|[19]|con|Contact|true|false
+22:05:59.1 (94367269)|VARIABLE_ASSIGNMENT|[19]|con|{}|0x635a3e3d
+22:05:59.1 (94377633)|STATEMENT_EXECUTE|[20]
+22:05:59.1 (94533463)|VARIABLE_ASSIGNMENT|[20]|this.AssistantName|"Parent acc record1"|0x635a3e3d
+22:05:59.1 (94544139)|STATEMENT_EXECUTE|[22]
+22:05:59.1 (94549223)|HEAP_ALLOCATE|[22]|Bytes:15
+22:05:59.1 (94606720)|VARIABLE_ASSIGNMENT|[22]|this.Email|"surya@gmail.com"|0x635a3e3d
+22:05:59.1 (94616723)|STATEMENT_EXECUTE|[23]
+22:05:59.1 (94620983)|HEAP_ALLOCATE|[23]|Bytes:10
+22:05:59.1 (94667616)|VARIABLE_ASSIGNMENT|[23]|this.Phone|"9834734530"|0x635a3e3d
+22:05:59.1 (94676335)|STATEMENT_EXECUTE|[25]
+22:05:59.1 (94679158)|STATEMENT_EXECUTE|[26]
+22:05:59.1 (94682036)|STATEMENT_EXECUTE|[27]
+22:05:59.1 (94729010)|VARIABLE_ASSIGNMENT|[27]|this.Languages__c|" "|0x635a3e3d
+22:05:59.1 (94737449)|STATEMENT_EXECUTE|[28]
+22:05:59.1 (94768184)|HEAP_ALLOCATE|[28]|Bytes:8
+22:05:59.1 (94781263)|DML_BEGIN|[28]|Op:Insert|Type:Contact|Rows:1
+22:05:59.1 (94827964)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+22:05:59.1 (193811418)|CODE_UNIT_STARTED|[EXTERNAL]|01q5g000000RanL|RestrictContactByName on Contact trigger event BeforeInsert|__sfdc_trigger/RestrictContactByName
+22:05:59.1 (193883417)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:8
+22:05:59.1 (194046504)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+22:05:59.1 (194068660)|VARIABLE_SCOPE_BEGIN|[1]|this|RestrictContactByName|true|false
+22:05:59.1 (194139356)|VARIABLE_ASSIGNMENT|[1]|this|{}|0xaf6eee0
+22:05:59.1 (194250608)|HEAP_ALLOCATE|[EXTERNAL]|Bytes:4
+22:05:59.1 (194341427)|VARIABLE_SCOPE_BEGIN|[1]|this|RestrictContactByName|true|false
+22:05:59.1 (194368245)|VARIABLE_ASSIGNMENT|[1]|this|{}|0xaf6eee0
+22:05:59.1 (194385717)|STATEMENT_EXECUTE|[1]
+22:05:59.1 (194689732)|HEAP_ALLOCATE|[4]|Bytes:5
+22:05:59.1 (194777218)|HEAP_ALLOCATE|[4]|Bytes:4
+22:05:59.1 (194790013)|VARIABLE_SCOPE_BEGIN|[4]|c|Contact|true|false
+22:05:59.1 (196727187)|VARIABLE_ASSIGNMENT|[4]|c|{"IsDeleted":false,"Birthday_today__c":false,"CleanStatus":"Pending","Email":"surya@gmail.com","IsEmailBounced":false,"DoNotCall":false,"OwnerId":"0055g00000GSiOmAAL","AssistantName":"Parent acc record1","Phone":"9834734530","HasOptedOutOfEmail":false,"HasOptedOutOfFax":false}|0x5fc4ea2c
+22:05:59.1 (196758803)|STATEMENT_EXECUTE|[4]
+22:05:59.1 (196777931)|STATEMENT_EXECUTE|[5]
+22:05:59.1 (196809155)|HEAP_ALLOCATE|[4]|Bytes:5
+22:05:59.1 (196837409)|VARIABLE_ASSIGNMENT|[4]|c|null|
+22:05:59.196 (196857663)|CUMULATIVE_LIMIT_USAGE
+22:05:59.196 (196857663)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 2 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+22:05:59.196 (196857663)|CUMULATIVE_LIMIT_USAGE_END
+
+22:05:59.1 (197047332)|CODE_UNIT_FINISHED|RestrictContactByName on Contact trigger event BeforeInsert|__sfdc_trigger/RestrictContactByName
+22:05:59.1 (203688264)|CODE_UNIT_STARTED|[EXTERNAL]|DuplicateDetector
+22:05:59.1 (203721531)|DUPLICATE_DETECTION_BEGIN
+22:05:59.1 (203835348)|DUPLICATE_DETECTION_RULE_INVOCATION|DuplicateRuleId:0Bm5g00000VMGNZ|DuplicateRuleName:Standard Contact Duplicate Rule|DmlType:INSERT
+22:05:59.1 (230671039)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Contact|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+22:05:59.1 (230706568)|DUPLICATE_DETECTION_MATCH_INVOCATION_SUMMARY|EntityType:Contact|NumRecordsToBeSaved:1|NumRecordsToBeSavedWithDuplicates:0|NumDuplicateRecordsFound:0
+22:05:59.1 (230723240)|DUPLICATE_DETECTION_MATCH_INVOCATION_DETAILS|EntityType:Contact|ActionTaken:Allow_[Alert,Report]|DuplicateRecordIds:
+22:05:59.1 (230733537)|DUPLICATE_DETECTION_MATCH_INVOCATION_SUMMARY|EntityType:Contact|NumRecordsToBeSaved:1|NumRecordsToBeSavedWithDuplicates:0|NumDuplicateRecordsFound:0
+22:05:59.1 (230993846)|DUPLICATE_DETECTION_END
+22:05:59.1 (231006490)|CODE_UNIT_FINISHED|DuplicateDetector
+22:05:59.1 (232897238)|DML_END|[28]
+22:05:59.1 (233142820)|VF_PAGE_MESSAGE|Required fields are missing: [LastName, Languages__c]
+22:05:59.1 (233377078)|EXCEPTION_THROWN|[28]|System.DmlException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [LastName, Languages__c]: [LastName, Languages__c]
+22:05:59.1 (233819197)|HEAP_ALLOCATE|[28]|Bytes:161
+22:05:59.1 (233902959)|VARIABLE_SCOPE_BEGIN|[30]|e|System.DmlException|true|false
+22:05:59.1 (234039942)|VARIABLE_ASSIGNMENT|[30]|e|"common.apex.runtime.impl.DmlExecutionException: Insert failed. First exception on row 0; first error: REQUIRED_FIELD_MISSING, Required fields are missing: [LastName, Languages__c]: [LastName, Languages__c]"|0x20f6d21e
+22:05:59.1 (234061974)|STATEMENT_EXECUTE|[30]
+22:05:59.1 (234065834)|STATEMENT_EXECUTE|[31]
+22:05:59.1 (234072765)|HEAP_ALLOCATE|[31]|Bytes:29
+22:05:59.1 (234140270)|USER_DEBUG|[31]|DEBUG|Accont created successfully 2
+22:05:59.1 (234178992)|METHOD_EXIT|[2]|01p5g00000hqa9n|Accountandcontact.contact()
+22:05:59.1 (234193866)|SYSTEM_MODE_EXIT|false
+22:05:59.237 (237472452)|CUMULATIVE_LIMIT_USAGE
+22:05:59.237 (237472452)|LIMIT_USAGE_FOR_NS|(default)|
+  Number of SOQL queries: 0 out of 100
+  Number of query rows: 0 out of 50000
+  Number of SOSL queries: 0 out of 20
+  Number of DML statements: 2 out of 150
+  Number of Publish Immediate DML: 0 out of 150
+  Number of DML rows: 2 out of 10000
+  Maximum CPU time: 0 out of 10000
+  Maximum heap size: 0 out of 6000000
+  Number of callouts: 0 out of 100
+  Number of Email Invocations: 0 out of 10
+  Number of future calls: 0 out of 50
+  Number of queueable jobs added to the queue: 0 out of 50
+  Number of Mobile Apex push calls: 0 out of 10
+
+22:05:59.237 (237472452)|CUMULATIVE_LIMIT_USAGE_END
+
+22:05:59.1 (237524931)|CODE_UNIT_FINISHED|execute_anonymous_apex
+22:05:59.1 (237539484)|EXECUTION_FINISHED
